@@ -58,18 +58,3 @@ How to use abstract classes and interfaces
 Real-world use of abstraction
 Writing clean and modular code
 
-Challenges Faced
-Confusion between abstract class and interface
-Remembering syntax differences
-
-Improvements for Tomorrow
-Practice more problems on abstraction
-Try combining abstraction with inheritance
-
-Outcome
-
-Now I can:
-
-Create abstract classes and interfaces
-Implement abstraction in Java programs
-Understand real-world applications of abstraction
