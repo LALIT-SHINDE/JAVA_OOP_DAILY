@@ -17,7 +17,7 @@ class Puppy extends Dog {
     }
 }
 
-public class Main1 {
+public class Main1{
     public static void main(String[] args) {
         Puppy p = new Puppy();
 
