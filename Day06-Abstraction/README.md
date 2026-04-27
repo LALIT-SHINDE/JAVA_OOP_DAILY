@@ -44,17 +44,3 @@ Concepts used:
 
 Interface implementation
 Runtime behavior
-
-Abstract Class vs Interface
-Feature	Abstract Class	Interface
-Methods	Abstract + Concrete	Mostly Abstract
-Variables	Instance variables allowed	Only constants
-Inheritance	Single	Multiple
-Keyword	extends	implements
-
-What I Learned
-Difference between abstraction and encapsulation
-How to use abstract classes and interfaces
-Real-world use of abstraction
-Writing clean and modular code
-
