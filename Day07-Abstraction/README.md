@@ -37,14 +37,6 @@ Difference Between Abstract Class and Interface
 | Keyword     | extends             | implements         |
 
 ---
-Key Concepts Learned
-
-* What abstraction is
-* How abstract classes work
-* How interfaces work
-* Difference between abstract class and interface
-
----
 Practice Problems
 
 1. Create an abstract class `Shape` with an abstract method `area()`.
