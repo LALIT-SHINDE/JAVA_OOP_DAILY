@@ -1,4 +1,5 @@
 // 1. Abstract Class
+
 abstract class Animal {
     abstract void sound(); 
 
@@ -21,6 +22,7 @@ public class Main {
         d.eat();
     }
 }
+
 /*
 Output: 
 Dog barks
