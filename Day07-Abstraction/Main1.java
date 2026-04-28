@@ -1,4 +1,5 @@
 // 2 Interface
+
 interface Animal {
     void sound();
 }
@@ -15,6 +16,7 @@ public class Main1 {
         c.sound();
     }
 }
+
 /*
 Output:
 Cat meows
