@@ -9,7 +9,7 @@ class Cat implements Animal {
     }
 }
 
-public class Main {
+public class Main1 {
     public static void main(String[] args) {
         Cat c = new Cat();
         c.sound();
