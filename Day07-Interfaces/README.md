@@ -62,8 +62,3 @@ Practice Problems
 
 ---
 
-Notes
-
-Interfaces help in building loosely coupled systems. They allow different classes to follow the same structure while having different implementations.
-
-In real-world applications, interfaces are heavily used in frameworks and large-scale systems to improve flexibility and maintainability.
