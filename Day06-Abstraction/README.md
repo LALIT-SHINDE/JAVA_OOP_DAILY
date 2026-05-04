@@ -40,7 +40,4 @@ Inheritance
 Created an interface Vehicle
 Implemented in class Car
 
-Concepts used:
 
-Interface implementation
-Runtime behavior
