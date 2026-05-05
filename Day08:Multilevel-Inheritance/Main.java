@@ -23,3 +23,18 @@ class SalesManager extends Manager {
         super(name, dob, empId, salary);
         this.commission = commission;
     }
+
+}
+
+// Main.java (Driver Class)
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("--- Employee Record ---");
+        Employee emp = new Employee("Lalit Shinde", "1990-05-15", "EMP101");
+        emp.displayInfo();
+
+        System.out.println("\n--- Sales Manager Record ---");
+        SalesManager sm = new SalesManager("Lalit Shinde", "1990-05-15", "SM202", 75000, 5000);
+        sm.displayInfo();
+    }
+}
