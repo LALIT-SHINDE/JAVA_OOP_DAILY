@@ -1,3 +1,4 @@
+// Hierarchical inheritance happens when multiple child classes inherit from one single parent class
 class Animal{
     String name;
     int age;
@@ -42,3 +43,16 @@ class HierarchicalInheritance {
         b.Meow();
     }
 }
+/* 
+Output:
+This is an Animal
+Animal's Name: Tom
+Animal's Age: 10
+Dog's breed: German Shepherd
+Dog's Speed: Fast
+
+This is an Animal
+Animal's Name: Sam
+Animal's Age: 3
+Cat's color: Black and White 
+*/
