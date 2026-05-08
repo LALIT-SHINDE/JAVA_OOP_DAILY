@@ -1,4 +1,9 @@
-
+/* 
+Java program to calculate salary using packages. Creates a package employee and create a class Emp.
+Data members are name, employee id, category, basic pay, HRA, DA, net pay, provident fund, gross pay, income tax, 
+and allowance. Calculate the values in methods. 
+Call the methods to perform and print values. teach me each conspect to sovle this problem.
+*/
 package Day11;
 
 public class Main {
