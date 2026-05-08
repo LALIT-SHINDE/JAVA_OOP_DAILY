@@ -22,7 +22,7 @@ class SportsCar extends Car{
     }
 }
 
-class HybridInheritance{
+class Main1{
     public static void main(String args[]){
 
         SportsCar s = new SportsCar();
