@@ -23,7 +23,7 @@ class Puppy extends Dog{
     }
 }
 
-class HybridInheritance{
+class Main{
     public static void main(String args[]){
 
         Puppy p = new Puppy();
