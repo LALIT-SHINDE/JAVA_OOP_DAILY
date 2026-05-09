@@ -5,47 +5,6 @@ Aim
 Write a Java program to accept roll number and marks from the user.
 Create a user-defined exception called MarksOutOfBoundException and throw it when marks are greater than 100.
 
-Program
-
-```java
-import java.util.Scanner;
-
-// User Defined Exception
-class MarksOutOfBoundException extends Exception {
-    MarksOutOfBoundException(String message) {
-        super(message);
-    }
-}
-
-public class StudentMarks {
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        try {
-            System.out.print("Enter Roll No: ");
-            int rollNo = sc.nextInt();
-
-            System.out.print("Enter Marks: ");
-            int marks = sc.nextInt();
-
-            // Condition check
-            if (marks > 100) {
-                throw new MarksOutOfBoundException("Marks Out of Bound");
-            }
-
-            System.out.println("Roll No: " + rollNo);
-            System.out.println("Marks: " + marks);
-
-        } catch (MarksOutOfBoundException e) {
-            System.out.println("Exception: " + e.getMessage());
-        }
-
-        sc.close();
-    }
-}
-```
-
 Explanation
 
 1. A custom exception class MarksOutOfBoundException is created by extending Exception.
