@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-// User Defined Exception
 class MarksOutOfBoundException extends Exception {
     MarksOutOfBoundException(String message) {
         super(message);
@@ -35,3 +34,10 @@ public class Main{
         sc.close();
     }
 }
+/*
+Valid Input:
+Enter Roll No: 101
+Enter Marks: 85
+Roll No: 101
+Marks: 85 
+*/
