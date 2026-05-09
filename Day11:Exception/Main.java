@@ -40,4 +40,9 @@ Enter Roll No: 101
 Enter Marks: 85
 Roll No: 101
 Marks: 85 
+
+Invalid Input:
+Enter Roll No: 101
+Enter Marks: 120
+Exception: Marks Out of Bound
 */
