@@ -4,17 +4,15 @@ Aim
 
 To create a Java program that calculates an employee's salary details using class methods and package concepts.
 
----
-
 Concepts Required to Solve This Program
 
 1. Package in Java
 
 A package is used to organize Java classes.
 
-```java
+java
 package Day13;
-```
+
 
 Purpose:
 - Organizes files properly
@@ -39,11 +37,10 @@ Flow:
 2. Calculate salary
 3. Print calculated values
 
----
+
 
 Program Flow
 
-```text
 User Input
    ↓
 Store Data
@@ -51,12 +48,9 @@ Store Data
 Calculate Salary
    ↓
 Display Result
-```
 
----
 Output Example
 
-```text
 Enter Name: lalit
 Enter Category: hype
 Enter Id: 12
@@ -74,9 +68,6 @@ PF: 3840.0
 Income TAX: 2560.0
 Gross Pay: 43200.0
 Net Pay: 36800.0
-```
-
----
 
 Important Concepts Learned
 
@@ -90,8 +81,6 @@ Important Concepts Learned
 - Salary calculation logic
 - Method calling
 - User input handling
-
----
 
 Conclusion
 
