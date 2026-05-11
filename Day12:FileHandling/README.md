@@ -4,7 +4,7 @@ Student Information File Handling in Java
 Aim  
 Write a Java program to implement student information in a file and perform operations on it.
 
----
+
 
 Concepts Used
 
@@ -14,7 +14,6 @@ Concepts Used
 - Exception Handling
 - Scanner Class
 
----
 
 Operations Performed
 
@@ -23,7 +22,6 @@ Operations Performed
 3. Read data from file
 4. Display file contents
 
----
 
 Classes Used
 
@@ -34,15 +32,12 @@ Classes Used
 | FileReader | Read data from file |
 | IOException | Handle file errors |
 
----
 
 File Used
 
-```text
+text
 student.txt
-```
 
----
 
 Program Flow
 
@@ -56,7 +51,6 @@ Read File
 ↓  
 Display Data
 
----
 
 Sample Output
 
@@ -71,8 +65,6 @@ Reading File Data:
 Student Name: Siddharth  
 Roll No: 101  
 Marks: 85
-
----
 
 Result
 
