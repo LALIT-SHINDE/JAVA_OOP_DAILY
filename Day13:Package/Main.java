@@ -4,58 +4,78 @@ Data members are name, employee id, category, basic pay, HRA, DA, net pay, provi
 and allowance. Calculate the values in methods. 
 Call the methods to perform and print values. teach me each conspect to sovle this problem.
 */
-package Day11;
+package Day13;
+import java.util.Scanner;
 
-public class Main {
+class Emp{
+    String Name, category;
+    int id;
+    double basicPay, HRA, DA, netPay, PF, IncomeTax, GrossPay, allowance;
 
-    // Data Members
-    String name;
-    int empId;
-    String category;
-    double basicPay;
-
-    double hra, da, pf, allowance;
-    double grossPay, incomeTax, netPay;
-
-    // Method to assign values
-    public void getData(String n, int id, String cat, double bp) {
-
-        name = n;
-        empId = id;
-        category = cat;
-        basicPay = bp;
+    void getData(){
+        System.out.println("Id: "+id +
+                           "\nName: "+ Name +
+                           "\nCategory:"+category+
+                           "\nBasic Pay: "+basicPay);
     }
 
-    // Method to calculate salary
-    public void calculateSalary() {
-
-        hra = basicPay * 0.20;
-        da = basicPay * 0.10;
-        pf = basicPay * 0.12;
+    void Cal(){
+        HRA = basicPay * 0.20;
+        DA = basicPay * 0.10;
         allowance = basicPay * 0.05;
+        PF = basicPay * 0.12;
+        IncomeTax = basicPay * 0.08;
 
-        grossPay = basicPay + hra + da + allowance;
+        GrossPay = basicPay + HRA + DA + allowance;
 
-        incomeTax = grossPay * 0.05;
-
-        netPay = grossPay - pf - incomeTax;
+        netPay = GrossPay - (PF + IncomeTax);
     }
 
-    // Method to display details
-    public void display() {
-
-        System.out.println("Employee Name : " + name);
-        System.out.println("Employee ID   : " + empId);
-        System.out.println("Category      : " + category);
-
-        System.out.println("Basic Pay     : " + basicPay);
-        System.out.println("HRA           : " + hra);
-        System.out.println("DA            : " + da);
-        System.out.println("Allowance     : " + allowance);
-        System.out.println("PF            : " + pf);
-
-        System.out.println("Gross Pay     : " + grossPay);
-        System.out.println("Income Tax    : " + incomeTax);
-        System.out.println("Net Pay       : " + netPay);
+    void Display(){
+        System.out.println("HRA: "+HRA+"\nDA: "+ DA+"\nAllowance: "+allowance+"\nPF: "+PF+"\nIncome TAX: "
+                           +IncomeTax+"\nGross Pay: "+GrossPay+"\nNet Pay: "+netPay);
     }
 }
+
+class Main{
+    public static void main(String args[]){
+        Scanner o = new Scanner(System.in);
+        Emp j = new Emp();
+
+        System.out.print("Enter Name: ");
+        j.Name = o.nextLine();
+
+        System.out.print("Enter Category: ");
+        j.category = o.nextLine();
+
+        System.out.print("Enter Id: ");
+        j.id = o.nextInt();
+
+        System.out.print("Basic PAY: ");
+        j.basicPay = o.nextDouble();
+
+        j.getData();
+        j.Cal();
+        j.Display();
+    }
+}
+
+/* 
+OutPut:
+Enter Name: lalit
+Enter Category: hype
+Enter Id: 12
+Basic PAY: 32000
+Id: 12
+Name: lalit
+Category:hype
+Basic Pay: 32000.0
+HRA: 6400.0
+DA: 3200.0
+Allowance: 1600.0
+PF: 3840.0
+Income TAX: 2560.0
+Gross Pay: 43200.0
+Net Pay: 36800.0
+ */
+
