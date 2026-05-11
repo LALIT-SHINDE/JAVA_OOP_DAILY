@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-class StudentFile {
+class Main {
 
     public static void main(String args[]) {
 
@@ -49,3 +49,18 @@ class StudentFile {
         sc.close();
     }
 }
+/* 
+Output
+
+Enter Student Name: Siddharth
+Enter Roll No: 101
+Enter Marks: 85
+
+Data Written Successfully
+
+Reading File Data:
+
+Student Name: Siddharth
+Roll No: 101
+Marks: 85 
+*/
