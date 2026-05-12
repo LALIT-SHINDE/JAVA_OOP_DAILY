@@ -1,4 +1,4 @@
-
+// Write a program to design an admission enquiry form using Swing. write a code
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
