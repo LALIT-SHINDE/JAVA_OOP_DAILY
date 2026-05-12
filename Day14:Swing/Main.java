@@ -135,3 +135,23 @@ class AdmissionForm extends JFrame implements ActionListener {
         new AdmissionForm();
     }
 }
+/*
+Output
+----------------------------------------
+|        Admission Enquiry Form         |
+|                                       |
+| Name:      [__________________]       |
+|                                       |
+| Gender:    ( ) Male   ( ) Female      |
+|                                       |
+| Course:    [ BCA ▼ ]                  |
+|                                       |
+| Address:   ____________________       |
+|            ____________________       |
+|            ____________________       |
+|                                       |
+| Mobile:    [__________________]       |
+|                                       |
+|         [Submit]   [Reset]            |
+-----------------------------------------
+ */
