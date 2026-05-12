@@ -4,14 +4,13 @@ Aim
 
 To design an Admission Enquiry Form using Java Swing.
 
----
+
 
 Software Requirements
 
 - Java JDK
 - VS Code / Eclipse / IntelliJ IDEA
 
----
 
 Concepts Used
 
@@ -26,7 +25,6 @@ Concepts Used
 - ActionListener
 - JOptionPane
 
----
 
 Description
 
@@ -43,7 +41,6 @@ Two buttons are provided:
 - Submit → Displays entered details.
 - Reset → Clears all fields.
 
----
 
 Output
 
@@ -51,7 +48,6 @@ The program displays a Swing window containing the admission enquiry form.
 
 After clicking the Submit button, the entered information is shown in a dialog box.
 
----
 
 How to Run
 
@@ -70,7 +66,6 @@ How to Run
    java AdmissionForm
    ```
 
----
 
 Conclusion
 
