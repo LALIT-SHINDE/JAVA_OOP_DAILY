@@ -1,3 +1,5 @@
+// Write a program to connect to any database and to execute the SQL query operation
+    
 import javax.swing.*;
 import java.awt.event.*;
 import java.sql.*;
