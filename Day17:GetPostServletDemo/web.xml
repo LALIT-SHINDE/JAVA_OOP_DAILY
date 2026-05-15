@@ -1,1 +1,13 @@
+<web-app>
 
+    <servlet>
+        <servlet-name>demo</servlet-name>
+        <servlet-class>GetPostDemo</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>demo</servlet-name>
+        <url-pattern>/GetPostDemo</url-pattern>
+    </servlet-mapping>
+
+</web-app>
