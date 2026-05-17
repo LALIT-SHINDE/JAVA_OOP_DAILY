@@ -11,25 +11,6 @@ Java
 Spring Boot
 Maven
 
-Project Structure
-
-AsyncProcess
-│
-├── src
-│   └── main
-│       ├── java
-│       │   └── com.example.asyncprocess
-│       │       ├── AsyncProcessApplication.java
-│       │       ├── controller
-│       │       │   └── TaskController.java
-│       │       └── service
-│       │           └── TaskService.java
-│       │
-│       └── resources
-│           └── application.properties
-│
-└── pom.xml
-
 Features
 Processes tasks asynchronously
 Uses separate thread execution
