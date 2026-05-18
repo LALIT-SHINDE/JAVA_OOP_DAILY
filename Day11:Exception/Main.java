@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-class MarksOutOfBoundException extends Exception {
-    MarksOutOfBoundException(String message) {
-        super(message);
+class Hi extends Exception {
+    Hi(String mgs) {
+        super(mgs);
     }
 }
 
@@ -20,14 +20,14 @@ public class Main{
 
             // Check condition
             if (marks > 100) {
-                throw new MarksOutOfBoundException("Marks Out of Bound");
+                throw new Hi("Marks Out of Bound");
             }
 
             System.out.println("Roll No: " + rollNo);
             System.out.println("Marks: " + marks);
 
         } 
-        catch (MarksOutOfBoundException e) {
+        catch (Hi e) {
             System.out.println("Exception: " + e.getMessage());
         }
 
