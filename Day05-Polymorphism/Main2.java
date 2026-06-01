@@ -76,3 +76,12 @@ public class Main2 {
         }
     }
 }
+// output:
+// Dog barks
+// Cat meows
+// Cow moos
+
+// Using Loop:
+// Dog barks
+// Cat meows
+// Cow moos
