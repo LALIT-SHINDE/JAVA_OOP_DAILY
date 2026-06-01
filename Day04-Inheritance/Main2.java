@@ -78,3 +78,19 @@ public class Main2 {
         t1.displayTeacher();
     }
 }
+
+/*
+OUTPUT:
+----- Student Details -----
+Name: Siddharth
+Age: 20
+Roll Number: 101
+Course: Computer Science
+
+----- Teacher Details -----
+Name: Rahul
+Age: 40
+Subject: Java Programming
+Salary: 55000.0
+
+*/
