@@ -62,3 +62,27 @@ public class Main {
         System.out.println("Program Executed Successfully");
     }
 }
+/*
+Default Constructor Called
+
+Student ID    : 0
+Student Name  : Not Assigned
+Student Marks : 0.0
+--------------------------------
+
+Parameterized Constructor Called
+
+Student ID    : 101
+Student Name  : Siddharth
+Student Marks : 89.5
+--------------------------------
+
+Parameterized Constructor Called
+
+Student ID    : 102
+Student Name  : Rahul
+Student Marks : 92.0
+--------------------------------
+
+Program Executed Successfully
+*/
