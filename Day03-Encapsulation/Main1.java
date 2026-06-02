@@ -114,3 +114,25 @@ public class Main1 {
         emp2.displayEmployeeDetails();
     }
 }
+/*
+Output:
+----------- Employee Details -----------
+Employee ID      : 101
+Employee Name    : Siddharth
+Department       : Computer Science
+Employee Salary  : 50000.0
+----------------------------------------
+
+Salary Increased
+
+Updated Salary : 55000.0
+Employee Name : Siddharth
+Department    : Computer Science
+
+----------- Employee Details -----------
+Employee ID      : 102
+Employee Name    : Rahul
+Department       : Information Technology
+Employee Salary  : 45000.0
+----------------------------------------
+*/
