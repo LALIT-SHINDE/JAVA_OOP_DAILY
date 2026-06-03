@@ -180,3 +180,38 @@ public class AbstractionCompany {
         t1.logout();
     }
 }
+/*
+Output:
+Employee Name : Rahul
+Employee ID   : 101
+Salary        : 70000.0
+Rahul logged into system
+Rahul is developing software
+Rahul writes Java code
+Rahul is debugging application
+Rahul attends technical meeting
+Developer Bonus : 14000.0
+Rahul logged out from system
+
+Employee Name : Sneha
+Employee ID   : 201
+Salary        : 95000.0
+Sneha logged into system
+Sneha manages development team
+Sneha conducts project meeting
+Sneha assigns tasks to employees
+Sneha checks team performance
+Manager Bonus : 28500.0
+Sneha logged out from system
+
+Employee Name : Amit
+Employee ID   : 301
+Salary        : 50000.0
+Amit logged into system
+Amit tests software modules
+Amit executes test cases
+Amit reports bugs
+Amit performs automation testing using Selenium
+Tester Bonus : 7500.0
+Amit logged out from system
+*/
