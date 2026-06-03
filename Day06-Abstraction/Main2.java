@@ -65,4 +65,16 @@ public class Main2{
     }
 }
 /*
+Output:
+Dog barks
+Animal is sleeping
+Dog is running
+
+Cat meows
+Animal is sleeping
+Cat is jumping
+
+Cow moos
+Animal is sleeping
+Cow is eating grass
 */
