@@ -76,3 +76,27 @@ public class Main1{
         }
     }
 }
+/*
+OUTPUT: 
+Before Salary Increment
+Employee ID: 101
+Employee Name: Siddharth
+Salary: 50000.0
+
+After Salary Increment
+Employee ID: 101
+Employee Name: Siddharth
+Salary: 55000.0
+
+Department: IT
+Employee ID: 101
+Employee Name: Siddharth
+Salary: 55000.0
+
+Department: HR
+Employee ID: 102
+Employee Name: Rahul
+Salary: 60000.0
+
+Highest Paid Employee: Rahul
+*/
