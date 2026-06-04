@@ -52,24 +52,4 @@ public class Main2{
         s3.display();
     }
 }
-/*
-OUTPUT:
-Default Constructor Called
-Parameterized Constructor Called
-Parameterized Constructor Called
 
-Student 1 Details
-Roll No: 0
-Name: Unknown
-Marks: 0.0
-
-Student 2 Details
-Roll No: 101
-Name: Siddharth
-Marks: 89.5
-
-Student 3 Details
-Roll No: 102
-Name: Rahul
-Marks: 92.0
-*/
