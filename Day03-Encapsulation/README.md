@@ -123,5 +123,3 @@ Increases code maintainability
 Enhances modularity
 
 Makes programs easier to manage
-
-Conclusion
