@@ -113,6 +113,32 @@ public class Main2{
         System.out.println("Grade : " + s1.getGrade());
     }
 }
+
 /*
-output: 
+OUTPUT:
+
+Student Information
+-------------------
+Roll Number : 101
+Name        : Siddharth
+Age         : 20
+Marks       : 88.5
+Grade       : B
+
+Student Information
+-------------------
+Roll Number : 102
+Name        : Rahul
+Age         : 21
+Marks       : 95.0
+Grade       : A
+
+Accessing data using getters
+Name  : Siddharth
+Marks : 88.5
+
+After updating marks
+Name  : Siddharth
+Marks : 92.0
+Grade : A
 */
