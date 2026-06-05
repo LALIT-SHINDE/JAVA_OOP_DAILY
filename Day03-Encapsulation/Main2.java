@@ -113,3 +113,6 @@ public class Main2{
         System.out.println("Grade : " + s1.getGrade());
     }
 }
+/*
+output: 
+*/
