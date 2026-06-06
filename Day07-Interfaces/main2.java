@@ -298,4 +298,118 @@ public class Main2 {
 }
 /*
 OUTPUT: 
+
+Follow company rules and regulations.
+Welcome to Employee Management System
+Rahul added successfully.
+Employee ID: 101
+Employee Name: Rahul
+Employee Salary: 30000.0
+Monthly Salary: 30000.0
+Rahul attendance marked.
+Employee report generated.
+Bonus depends on performance.
+
+--------------------------------
+
+Amit added successfully.
+Employee ID: 102
+Employee Name: Amit
+Employee Salary: 70000.0
+Monthly Salary: 70000.0
+Manager report generated.
+Team Size: 10
+Manager conducting meeting.
+
+--------------------------------
+
+Employee ID: 103
+Employee Name: Siddharth
+Employee Salary: 50000.0
+Developer Salary: 50000.0
+Bonus: 5000.0
+Total Salary: 55000.0
+Siddharth is coding in Java
+
+--------------------------------
+
+Employee ID: 104
+Employee Name: Rohan
+Employee Salary: 40000.0
+Monthly Salary: 40000.0
+Rohan testing using Selenium
+
+--------------------------------
+
+Employee ID: 105
+Employee Name: Priya
+Employee Salary: 45000.0
+Monthly Salary: 45000.0
+HR is recruiting employees.
+
+--------------------------------
+
+Polymorphism Example
+
+Employee ID: 102
+Employee Name: Amit
+Employee Salary: 70000.0
+Monthly Salary: 70000.0
+
+Employee ID: 103
+Employee Name: Siddharth
+Employee Salary: 50000.0
+Developer Salary: 50000.0
+Bonus: 5000.0
+Total Salary: 55000.0
+
+Employee ID: 104
+Employee Name: Rohan
+Employee Salary: 40000.0
+Monthly Salary: 40000.0
+
+Employee ID: 105
+Employee Name: Priya
+Employee Salary: 45000.0
+Monthly Salary: 45000.0
+
+--------------------------------
+
+Email Notification: Salary credited successfully.
+
+--------------------------------
+
+SMS Notification: Attendance marked successfully.
+
+--------------------------------
+
+Karan added successfully.
+Employee ID: 106
+Employee Name: Karan
+Employee Salary: 80000.0
+Monthly Salary: 80000.0
+Manager report generated.
+Team Size: 15
+
+--------------------------------
+
+Neha attendance marked.
+
+--------------------------------
+
+Developer Salary: 60000.0
+Bonus: 6000.0
+Total Salary: 66000.0
+
+--------------------------------
+
+Vikas added successfully.
+Employee ID: 109
+Employee Name: Vikas
+Employee Salary: 42000.0
+Vikas removed successfully.
+
+--------------------------------
+
+Program Completed Successfully
 */
