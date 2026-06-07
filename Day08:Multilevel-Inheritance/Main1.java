@@ -35,28 +35,23 @@ class SoftwareEngineer implements Employee, Department, Salary, Bonus, Performan
         this.projectsCompleted = projectsCompleted;
     }
 
-    @Override
     public void showEmployeeDetails() {
         System.out.println("Employee ID : " + empId);
         System.out.println("Employee Name : " + name);
     }
 
-    @Override
     public void showDepartment() {
         System.out.println("Department : " + department);
     }
 
-    @Override
     public double calculateSalary() {
         return basicSalary;
     }
 
-    @Override
     public double calculateBonus() {
         return projectsCompleted * 5000;
     }
 
-    @Override
     public void evaluatePerformance() {
         if (projectsCompleted >= 5) {
             System.out.println("Performance : Excellent");
@@ -97,14 +92,3 @@ public class Main1 {
         emp1.displayReport();
     }
 }
-/*
-OUTPUT:
-===== EMPLOYEE REPORT =====
-Employee ID : 101
-Employee Name : Siddharth
-Department : Software Development
-Basic Salary : 60000.0
-Bonus : 30000.0
-Total Salary : 90000.0
-Performance : Excellent
-*/
