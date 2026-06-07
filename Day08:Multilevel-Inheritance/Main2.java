@@ -92,7 +92,7 @@ class SoftwareEngineer implements Person, Employee,
         }
     }
 
-    public void generateReport() {
+    public void Main2() {
 
         System.out.println("\n==============================");
         System.out.println(" EMPLOYEE MANAGEMENT REPORT ");
@@ -141,3 +141,44 @@ public class MultipleInterfaceManagementSystem {
         emp2.generateReport();
     }
 }
+/*
+OUTPUT:
+
+Assigned Project : Online Banking System
+
+==============================
+ EMPLOYEE MANAGEMENT REPORT
+==============================
+Employee ID      : 101
+Employee Name    : Siddharth
+Department       : Development
+Attendance Days  : 25
+Current Project  : Online Banking System
+Basic Salary     : 50000.0
+HRA              : 10000.0
+DA               : 5000.0
+Bonus            : 21000.0
+Total Salary     : 86000.0
+Completed Projects : 7
+Performance : Excellent
+==============================
+
+Assigned Project : E-Commerce Website
+
+==============================
+ EMPLOYEE MANAGEMENT REPORT
+==============================
+Employee ID      : 102
+Employee Name    : Rahul
+Department       : Testing
+Attendance Days  : 22
+Current Project  : E-Commerce Website
+Basic Salary     : 45000.0
+HRA              : 9000.0
+DA               : 4500.0
+Bonus            : 9000.0
+Total Salary     : 67500.0
+Completed Projects : 3
+Performance : Good
+==============================
+*/
