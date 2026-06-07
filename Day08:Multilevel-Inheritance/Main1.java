@@ -92,3 +92,14 @@ public class Main1 {
         emp1.displayReport();
     }
 }
+/*
+OUTPUT:
+===== EMPLOYEE REPORT =====
+Employee ID : 101
+Employee Name : Siddharth
+Department : Software Development
+Basic Salary : 60000.0
+Bonus : 30000.0
+Total Salary : 90000.0
+Performance : Excellent
+*/
