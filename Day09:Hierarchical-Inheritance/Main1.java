@@ -98,6 +98,7 @@ public class Main1 {
         st.displayStaffDetails();
     }
 }
+
 /*
 Output:
 ===== Student Details =====
