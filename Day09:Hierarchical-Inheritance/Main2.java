@@ -297,3 +297,51 @@ public class UniversityManagement {
         lib.display();
     }
 }
+/*
+OUTPUT:
+===== Undergraduate Student =====
+Name   : Rahul
+Age    : 19
+Gender : Male
+Roll No : 101
+Course  : B.Tech
+Semester : 3
+
+===== Graduate Student =====
+Name   : Priya
+Age    : 24
+Gender : Female
+Roll No : 102
+Course  : M.Tech
+Specialization : Artificial Intelligence
+
+===== Head Of Department =====
+Name   : Dr. Sharma
+Age    : 50
+Gender : Male
+Employee ID : 201
+Department  : Computer Science
+Experience : 25 Years
+
+===== Lecturer =====
+Name   : Ms. Anita
+Age    : 34
+Gender : Female
+Employee ID : 202
+Department  : Computer Science
+Subject : Java Programming
+
+===== Administrator =====
+Name   : Ramesh
+Age    : 40
+Gender : Male
+Staff ID : 301
+Role : Office Manager
+
+===== Librarian =====
+Name   : Suman
+Age    : 38
+Gender : Female
+Staff ID : 302
+Books Managed : 15000
+*/
