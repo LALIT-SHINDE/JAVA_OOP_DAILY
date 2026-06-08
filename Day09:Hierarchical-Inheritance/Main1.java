@@ -98,3 +98,23 @@ public class Main1 {
         st.displayStaffDetails();
     }
 }
+/*
+Output:
+===== Student Details =====
+Name : Rahul
+Age  : 20
+Roll No : 101
+Course  : Computer Science
+
+===== Teacher Details =====
+Name : Anita
+Age  : 35
+Teacher ID : 201
+Subject    : Java Programming
+
+===== Staff Details =====
+Name : Ramesh
+Age  : 40
+Staff ID   : 301
+Department : Administration
+*/
