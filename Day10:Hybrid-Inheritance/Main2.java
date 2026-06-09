@@ -1,5 +1,3 @@
-// Hybrid Inheritance in Java using Interfaces and Classes
-
 interface PersonActions {
     void displayPersonInfo();
 }
@@ -118,7 +116,7 @@ class ProjectManager extends Manager {
 }
 
 // Main Class
-public class HybridInheritanceDemo {
+public class Main2 {
     public static void main(String[] args) {
 
         Developer dev = new Developer(
