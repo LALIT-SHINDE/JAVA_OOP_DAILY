@@ -1,85 +1,200 @@
 Hybrid Inheritance in Java
+Overview
 
-Description  
-This Java program demonstrates the concept of Hybrid Inheritance using:
-- Hierarchical Inheritance
-- Multilevel Inheritance
+This project demonstrates Hybrid Inheritance in Java using a combination of classes and interfaces.
 
-The program uses classes:
-- Animal
-- Dog
-- Cat
-- Puppy
+Java does not support multiple inheritance through classes directly. However, hybrid inheritance can be achieved by combining Single Inheritance, Hierarchical Inheritance, Multilevel Inheritance, and Multiple Inheritance using Interfaces.
 
----
-
-Concepts Used
-- Class and Object
-- Inheritance
-- Hierarchical Inheritance
-- Multilevel Inheritance
-- Hybrid Inheritance
-- Method Calling
-
----
+This example models an employee management system containing Developers, Testers, Managers, and Project Managers.
 
 Inheritance Structure
 
-        Animal
-       /      \
-     Dog      Cat
-      ↓
-    Puppy
+Person
 
----
+↓
 
-Class Details
+Employee
 
-Animal  
+↓ ↓ ↓
+
+Developer Tester Manager
+
+                  ↓
+
+           ProjectManager
+
+Interfaces Used:
+
+PersonActions
+
+EmployeeActions
+
+ManagerActions
+
+Classes and Interfaces
+PersonActions Interface
+
+Defines the method:
+
+void displayPersonInfo();
+
+EmployeeActions Interface
+
+Defines the method:
+
+void work();
+
+ManagerActions Interface
+
+Defines the method:
+
+void manageTeam();
+
+Classes
+Person
+
+Base class containing:
+
+name
+age
+showPersonDetails()
+Employee
+
+Inherits from Person and implements PersonActions and EmployeeActions.
+
 Contains:
-- animal() method
 
-Dog  
-Inherits from Animal  
-Contains:
-- dog() method
+empId
+salary
+displayPersonInfo()
+work()
+Developer
 
-Cat  
-Inherits from Animal  
-Contains:
-- cat() method
+Inherits from Employee.
 
-Puppy  
-Inherits from Dog  
 Contains:
-- puppy() method
+
+programmingLanguage
+writeCode()
+Tester
+
+Inherits from Employee.
+
+Contains:
+
+testingTool
+testApplication()
+Manager
+
+Inherits from Employee and implements ManagerActions.
+
+Contains:
+
+teamSize
+manageTeam()
+ProjectManager
+
+Inherits from Manager.
+
+Contains:
+
+projectName
+monitorProject()
+Types of Inheritance Used
+Single Inheritance
+
+Employee extends Person
+
+Employee inherits properties and methods from Person.
+
+Hierarchical Inheritance
+
+Developer extends Employee
+
+Tester extends Employee
+
+Manager extends Employee
+
+Multiple child classes inherit from the same parent class.
+
+Multilevel Inheritance
+
+Person
+
+Employee
+
+Manager
+
+ProjectManager
+
+Inheritance occurs through multiple levels.
+
+Multiple Inheritance Using Interfaces
+
+Employee implements PersonActions and EmployeeActions.
+
+Manager implements ManagerActions.
+
+Java supports multiple inheritance through interfaces.
 
 Features
-- Demonstrates code reusability using inheritance
-- Shows hybrid inheritance structure
-- Demonstrates parent and child class relationships
-- Uses objects to access inherited methods
-
----
-
+Demonstrates a real-world Employee Management System.
+Uses interfaces for abstraction.
+Uses inheritance for code reusability.
+Demonstrates method implementation and overriding.
+Shows the Hybrid Inheritance concept in Java.
 Sample Output
 
-This is Animal Class
-This is Dog Class
-This is Puppy Class
+===== DEVELOPER DETAILS =====
 
-This is Animal Class
-This is Cat Class
+Employee Information
 
----
+Name : Siddharth
 
-Types of Inheritance Used
+Age : 21
 
-Hierarchical Inheritance:
-Animal → Dog
-Animal → Cat
+Employee ID : 101
 
-Multilevel Inheritance:
-Animal → Dog → Puppy
+Salary : 60000.0
 
-Combination of both forms Hybrid Inheritance.
+Siddharth is working on assigned tasks.
+
+Siddharth is coding in Java.
+
+===== TESTER DETAILS =====
+
+Employee Information
+
+Name : Rahul
+
+Age : 22
+
+Employee ID : 102
+
+Salary : 50000.0
+
+Rahul is working on assigned tasks.
+
+Rahul is testing using Selenium.
+
+===== PROJECT MANAGER DETAILS =====
+
+Employee Information
+
+Name : Amit
+
+Age : 35
+
+Employee ID : 103
+
+Salary : 120000.0
+
+Amit is working on assigned tasks.
+
+Amit is managing a team of 10 members.
+
+Amit is monitoring project: Banking System.
+
+Conclusion
+
+This project successfully demonstrates Hybrid Inheritance in Java by combining Single Inheritance, Hierarchical Inheritance, Multilevel Inheritance, and Interface-based Multiple Inheritance. It provides a practical example of how inheritance and interfaces can be used together to create flexible and reusable object-oriented programs.
