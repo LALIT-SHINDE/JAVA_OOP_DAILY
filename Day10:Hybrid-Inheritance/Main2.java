@@ -153,3 +153,36 @@ public class Main2 {
         pm.monitorProject();
     }
 }
+/*
+Output:
+===== DEVELOPER DETAILS =====
+
+--- Employee Information ---
+Name : Siddharth
+Age  : 21
+Employee ID : 101
+Salary      : 60000.0
+Siddharth is working on assigned tasks.
+Siddharth is coding in Java.
+
+===== TESTER DETAILS =====
+
+--- Employee Information ---
+Name : Rahul
+Age  : 22
+Employee ID : 102
+Salary      : 50000.0
+Rahul is working on assigned tasks.
+Rahul is testing using Selenium.
+
+===== PROJECT MANAGER DETAILS =====
+
+--- Employee Information ---
+Name : Amit
+Age  : 35
+Employee ID : 103
+Salary      : 120000.0
+Amit is working on assigned tasks.
+Amit is managing a team of 10 members.
+Amit is monitoring project: Banking System.
+*/
