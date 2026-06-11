@@ -28,9 +28,6 @@ Enter Roll No: 101
 Enter Marks: 120
 Exception: Marks Out of Bound
 ```
-
-Conclusion
-
 The program demonstrates the use of user-defined exceptions in Java to handle invalid marks input.
 
 Java Advanced Exception Handling
