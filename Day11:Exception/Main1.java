@@ -96,3 +96,31 @@ public class Main1 {
         sc.close();
     }
 }
+/*
+OUTPUT: 
+Arithmetic Exception Example
+Arithmetic Exception Caught: java.lang.ArithmeticException: / by zero
+
+Array Index Exception Example
+Array Index Exception Caught: java.lang.ArrayIndexOutOfBoundsException: Index 10 out of bounds for length 5
+
+Number Format Exception Example
+Number Format Exception Caught: java.lang.NumberFormatException: For input string: "ABC"
+
+Null Pointer Exception Example
+Null Pointer Exception Caught: java.lang.NullPointerException
+
+Input Mismatch Exception Example
+Enter an integer: 25
+You entered: 25
+
+Custom Exception Example
+Enter your age: 16
+Custom Exception Caught: Age must be 18 or above.
+
+Finally Block Example
+Division Result: 10
+Finally block executed.
+
+Program completed successfully.
+*/
