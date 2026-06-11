@@ -67,3 +67,17 @@ public class Main2 {
         System.out.println("Program Ended Successfully.");
     }
 }
+/*
+Output: 
+Array Index Exception: java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 3
+
+Inner Catch: java.lang.ArithmeticException: / by zero
+Outer Catch: java.lang.ArrayIndexOutOfBoundsException: Index 10 out of bounds for length 3
+
+Custom Exception: Age is less than 18.
+
+File Not Found: java.io.FileNotFoundException: test.txt (The system cannot find the file specified)
+Finally block executed.
+
+Program Ended Successfully.
+*/
