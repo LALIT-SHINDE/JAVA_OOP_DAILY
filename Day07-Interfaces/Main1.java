@@ -1,4 +1,3 @@
-
 // Multiple Inheritance
 interface A {
     void show();
